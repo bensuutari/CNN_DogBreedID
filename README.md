@@ -13,11 +13,12 @@ The data set includes a training and a testing data set.  The training set conta
 
 Next steps:
 
--Integrate genes and genetic variations into SVM classifier or consider using a different classifier
+-Optimize the learning rate to obtain the best model fit vs. training time
 
--Consider using Doc2Vec instead of Word2Vec (info here: https://radimrehurek.com/gensim/models/doc2vec.html)
+-Implement GPU processing to significantly speed up network training
 
+-Examine how resizing images distorts features and determine if resized image resolution needs to be increased
 
-Tools used: NLTK, Gensim, Scikit-Learn, Pandas, BeautifulSoup, Numpy
+-More updates to come
 
 
